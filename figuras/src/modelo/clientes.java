@@ -15,5 +15,10 @@ public class clientes {
 	public void setNombreCliente(String nombreCliente) {
 		this.nombreCliente = nombreCliente;
 	}
+	@Override
+	public String toString() {
+		return "clientes [idCliente=" + idCliente + ", nombreCliente=" + nombreCliente + "]";
+	}
+	
 	
 }
